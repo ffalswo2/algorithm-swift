@@ -62,9 +62,9 @@
 		B51FDFDA28214EC000ED0429 /* algo */ = {
 			isa = PBXGroup;
 			children = (
+				B5209187283B7D0F00E8B235 /* 자료구조 */,
 				B5209182283B79A600E8B235 /* 재귀 */,
 				B5209181283B79A100E8B235 /* 구현 */,
-				B5209180283B799400E8B235 /* 스택 */,
 				B51FDFE2282156CF00ED0429 /* 그리디 */,
 			);
 			path = algo;
@@ -110,6 +110,15 @@
 			);
 			name = "재귀";
 			path = "재귀";
+			sourceTree = "<group>";
+		};
+		B5209187283B7D0F00E8B235 /* 자료구조 */ = {
+			isa = PBXGroup;
+			children = (
+				B5209180283B799400E8B235 /* 스택 */,
+			);
+			name = "자료구조";
+			path = "자료구조";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
