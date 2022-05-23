@@ -27,6 +27,9 @@
 		B5209184283B7AA500E8B235 /* 2217_로프.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2217_로프.swift"; sourceTree = "<group>"; };
 		B5209185283B7AD100E8B235 /* 1026_보물.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1026_보물.swift"; sourceTree = "<group>"; };
 		B5209186283B7AEC00E8B235 /* 1931_회의실배정.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1931_회의실배정.swift"; sourceTree = "<group>"; };
+		B5209188283B7D7700E8B235 /* 1769_3의배수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1769_3의배수.swift"; sourceTree = "<group>"; };
+		B520918A283B812400E8B235 /* 2941_크로아티아 알파벳.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2941_크로아티아 알파벳.swift"; sourceTree = "<group>"; };
+		B520918C283B841B00E8B235 /* 14891_톱니바퀴.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14891_톱니바퀴.swift"; sourceTree = "<group>"; };
 		B5E112922825718D0048D2D0 /* 1789_수들의 합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1789_수들의 합.swift"; sourceTree = "<group>"; };
 		B5E112942825789D0048D2D0 /* 1543_문서 검색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1543_문서 검색.swift"; sourceTree = "<group>"; };
 		B5E1129828258EE30048D2D0 /* 11047_동전0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11047_동전0.swift"; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				B5209183283B7A2B00E8B235 /* 18312_시각.swift */,
+				B520918A283B812400E8B235 /* 2941_크로아티아 알파벳.swift */,
+				B520918C283B841B00E8B235 /* 14891_톱니바퀴.swift */,
 			);
 			name = "구현";
 			path = "구현";
@@ -107,6 +112,7 @@
 		B5209182283B79A600E8B235 /* 재귀 */ = {
 			isa = PBXGroup;
 			children = (
+				B5209188283B7D7700E8B235 /* 1769_3의배수.swift */,
 			);
 			name = "재귀";
 			path = "재귀";
