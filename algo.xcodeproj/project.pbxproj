@@ -30,6 +30,7 @@
 		B5209188283B7D7700E8B235 /* 1769_3의배수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1769_3의배수.swift"; sourceTree = "<group>"; };
 		B520918A283B812400E8B235 /* 2941_크로아티아 알파벳.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2941_크로아티아 알파벳.swift"; sourceTree = "<group>"; };
 		B520918C283B841B00E8B235 /* 14891_톱니바퀴.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14891_톱니바퀴.swift"; sourceTree = "<group>"; };
+		B52CAF34289D03F100CA5602 /* 신고결과받기.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = "신고결과받기.swift"; sourceTree = "<group>"; tabWidth = 2; };
 		B5E112922825718D0048D2D0 /* 1789_수들의 합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1789_수들의 합.swift"; sourceTree = "<group>"; };
 		B5E112942825789D0048D2D0 /* 1543_문서 검색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1543_문서 검색.swift"; sourceTree = "<group>"; };
 		B5E1129828258EE30048D2D0 /* 11047_동전0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11047_동전0.swift"; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 		B51FDFDA28214EC000ED0429 /* algo */ = {
 			isa = PBXGroup;
 			children = (
+				B52CAF32289D03D600CA5602 /* 프로그래머스 */,
 				B5209187283B7D0F00E8B235 /* 자료구조 */,
 				B5209182283B79A600E8B235 /* 재귀 */,
 				B5209181283B79A100E8B235 /* 구현 */,
@@ -125,6 +127,23 @@
 			);
 			name = "자료구조";
 			path = "자료구조";
+			sourceTree = "<group>";
+		};
+		B52CAF32289D03D600CA5602 /* 프로그래머스 */ = {
+			isa = PBXGroup;
+			children = (
+				B52CAF33289D03DD00CA5602 /* Level1 */,
+			);
+			name = "프로그래머스";
+			path = "프로그래머스";
+			sourceTree = "<group>";
+		};
+		B52CAF33289D03DD00CA5602 /* Level1 */ = {
+			isa = PBXGroup;
+			children = (
+				B52CAF34289D03F100CA5602 /* 신고결과받기.swift */,
+			);
+			path = Level1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
