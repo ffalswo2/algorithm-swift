@@ -198,6 +198,7 @@
 				B5A9BC9928A7924A00EBC76E /* 문자열 마음대로 정렬.swift */,
 				B5A9BC9B28A7958A00EBC76E /* 문자열 내 p와 y의 개수.swift */,
 				B5A9BC9E28A7980C00EBC76E /* 문자열 내림차순으로 배치하기.swift */,
+				B5A9BCA028A8445800EBC76E /* 문자열 다루기 기본.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
