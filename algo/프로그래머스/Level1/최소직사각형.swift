@@ -9,23 +9,23 @@ import Foundation
 
 
 func solution(_ sizes:[[Int]]) -> Int {
-    var big: [Int] = []
-    var small: [Int] = []
+  var big: [Int] = []
+  var small: [Int] = []
+  
+  for size in sizes {
+    let w = size[0]
+    let h = size[1]
     
-    for size in sizes {
-        let w = size[0]
-        let h = size[1]
-        
-        if w > h {
-            big.append(w)
-            small.append(h)
-        } else {
-            big.append(h)
-            small.append(w)
-        }
+    if w > h {
+      big.append(w)
+      small.append(h)
+    } else {
+      big.append(h)
+      small.append(w)
     }
-    
-    return big.max()! * small.max()!
+  }
+  
+  return big.max()! * small.max()!
 }
 
 solution([[60, 50], [30, 70], [60, 30], [80, 40]])
