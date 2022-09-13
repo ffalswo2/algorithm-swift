@@ -8,30 +8,30 @@
 import Foundation
 
 
-func solution(_ number:String, _ k:Int) -> String {
-    let number = number.map { String($0) }
-    
-    var k = k
-    var stack: [String] = []
-    
-    
-    for (idx, num) in number.enumerated() {
-        while k > 0 && !stack.isEmpty && stack.last! < num {
-            stack.removeLast()
-            k -= 1
-        }
-        
-        if k > 0 {
-            stack.append(num)
-        } else {
-            stack += number[idx...]
-            break
-        }
+func solution(_ number:String, _ k:Int) -> String  {
+  let number = number.map { String($0) }
+  
+  var k = k
+  var stack: [String] = []
+  
+  
+  for (idx, num) in number.enumerated() {
+    while k > 0 && !stack.isEmpty && stack.last! < num {
+      stack.removeLast()
+      k -= 1
     }
     
-    return String(stack.joined().prefix(stack.count - k))
+    if k > 0 {
+      stack.append(num)
+    } else {
+      stack += number[idx...]
+      break
+    }
+  }
+  
+  return String(stack.joined().prefix(stack.count - k))
 }
 
-_ = solution("1924", 2)
-_ = solution("1231234", 3)
-_ = solution("4177252841", 4)
+solution("1924", 2)
+solution("1231234", 3)
+solution("4177252841", 4)
