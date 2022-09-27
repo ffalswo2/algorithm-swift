@@ -8,63 +8,63 @@
 import Foundation
 
 func solution(_ numbers:String) -> Int {
+  
+  func permutation<T: Comparable>(_ array: [T], _ n: Int) -> [[T]] {
+    var result = [[T]]()
+    if array.count < n { return result }
     
-    func permutation<T: Comparable>(_ array: [T], _ n: Int) -> [[T]] {
-        var result = [[T]]()
-        if array.count < n { return result }
-        
-        var visited = Array(repeating: false, count: array.count)
-        
-        func cycle(_ now: [T]) {
-            if now.count == n {
-                result.append(now)
-                return
-            }
-            
-            for i in 0..<array.count {
-                if visited[i] {
-                    continue
-                } else {
-                    visited[i] = true
-                    cycle(now + [array[i]])
-                    visited[i] = false
-                }
-            }
+    var visited = Array(repeating: false, count: array.count)
+    
+    func cycle(_ now: [T]) {
+      if now.count == n {
+        result.append(now)
+        return
+      }
+      
+      for i in 0..<array.count {
+        if visited[i] {
+          continue
+        } else {
+          visited[i] = true
+          cycle(now + [array[i]])
+          visited[i] = false
         }
-        
-        cycle([])
-        
-        return result
+      }
     }
     
-    func isPrime(_ num: Int) -> Bool {
-        if num < 2 { return false }
-        
-        for i in 2..<(Int(sqrt(Double(num))) + 1) {
-            if num % i == 0 {
-                return false
-            }
-        }
-        
-        return true
+    cycle([])
+    
+    return result
+  }
+  
+  func isPrime(_ num: Int) -> Bool {
+    if num < 2 { return false }
+    
+    for i in 2..<(Int(sqrt(Double(num))) + 1) {
+      if num % i == 0 {
+        return false
+      }
     }
     
-    var answer = 0
-    for cnt in 1...numbers.count {
-        let per = Set(permutation(Array(numbers), cnt).map({
-            Int(String($0))!
-        }))
-        
-        for i in per {
-            if String(i).count != cnt { continue }
-            
-            if isPrime(i) {
-                answer += 1
-            }
-        }
-    }
+    return true
+  }
+  
+  var answer = 0
+  for cnt in 1...numbers.count {
+    let per = Set(permutation(Array(numbers), cnt).map({
+      Int(String($0))!
+    }))
     
-    return answer
+    for i in per {
+      if String(i).count != cnt { continue }
+      
+      if isPrime(i) {
+        answer += 1
+      }
+    }
+  }
+  
+  return answer
 }
 
 solution("17")
