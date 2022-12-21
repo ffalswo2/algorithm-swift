@@ -6,10 +6,6 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		B5F1BBA728E2A6A500DB915D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F1BBA628E2A6A500DB915D /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		B51FDFD628214EC000ED0429 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -53,6 +49,8 @@
 		B5465B6F28BBC36300DFF564 /* N-Queen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "N-Queen.swift"; sourceTree = "<group>"; };
 		B5465B7128BD028500DFF564 /* 양궁대회.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "양궁대회.swift"; sourceTree = "<group>"; };
 		B5465B7328C0B61900DFF564 /* 행렬의 곱셈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "행렬의 곱셈.swift"; sourceTree = "<group>"; };
+		B5689CBE2952792C006D20F5 /* 왕실의 나이트.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "왕실의 나이트.swift"; sourceTree = "<group>"; };
+		B5689CC129528286006D20F5 /* 게임 개발.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "게임 개발.swift"; sourceTree = "<group>"; };
 		B595000A28D6F4F000F6B2E4 /* 완주하지못한선수(Python).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "완주하지못한선수(Python).swift"; sourceTree = "<group>"; };
 		B595000D28D6F80E00F6B2E4 /* 디스크컨트롤러.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "디스크컨트롤러.swift"; sourceTree = "<group>"; };
 		B595000F28D70B1500F6B2E4 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -141,6 +139,7 @@
 		B51FDFDA28214EC000ED0429 /* algo */ = {
 			isa = PBXGroup;
 			children = (
+				B5689CBC295278EB006D20F5 /* 이코테 */,
 				B5DCF45728F2B10300F56BBE /* goorm */,
 				B595FFE628D0DA0B00F6B2E4 /* 자료구조 */,
 				B595FFE328D0D85200F6B2E4 /* BOJ */,
@@ -274,6 +273,25 @@
 				B595000A28D6F4F000F6B2E4 /* 완주하지못한선수(Python).swift */,
 			);
 			path = Level1;
+			sourceTree = "<group>";
+		};
+		B5689CBC295278EB006D20F5 /* 이코테 */ = {
+			isa = PBXGroup;
+			children = (
+				B5689CBD2952791D006D20F5 /* 구현 */,
+			);
+			name = "이코테";
+			path = "이코테";
+			sourceTree = "<group>";
+		};
+		B5689CBD2952791D006D20F5 /* 구현 */ = {
+			isa = PBXGroup;
+			children = (
+				B5689CBE2952792C006D20F5 /* 왕실의 나이트.swift */,
+				B5689CC129528286006D20F5 /* 게임 개발.swift */,
+			);
+			name = "구현";
+			path = "구현";
 			sourceTree = "<group>";
 		};
 		B595000C28D6F7EE00F6B2E4 /* Level3 */ = {
