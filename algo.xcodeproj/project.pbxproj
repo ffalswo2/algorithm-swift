@@ -6,6 +6,11 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B5689CC429529779006D20F5 /* 럭키 스트레이트.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5689CC329529779006D20F5 /* 럭키 스트레이트.swift */; };
+		B5689CC629529A32006D20F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5689CC529529A32006D20F5 /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		B51FDFD628214EC000ED0429 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -51,6 +56,8 @@
 		B5465B7328C0B61900DFF564 /* 행렬의 곱셈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "행렬의 곱셈.swift"; sourceTree = "<group>"; };
 		B5689CBE2952792C006D20F5 /* 왕실의 나이트.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "왕실의 나이트.swift"; sourceTree = "<group>"; };
 		B5689CC129528286006D20F5 /* 게임 개발.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "게임 개발.swift"; sourceTree = "<group>"; };
+		B5689CC329529779006D20F5 /* 럭키 스트레이트.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "럭키 스트레이트.swift"; sourceTree = "<group>"; };
+		B5689CC529529A32006D20F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B595000A28D6F4F000F6B2E4 /* 완주하지못한선수(Python).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "완주하지못한선수(Python).swift"; sourceTree = "<group>"; };
 		B595000D28D6F80E00F6B2E4 /* 디스크컨트롤러.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "디스크컨트롤러.swift"; sourceTree = "<group>"; };
 		B595000F28D70B1500F6B2E4 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -289,6 +296,8 @@
 			children = (
 				B5689CBE2952792C006D20F5 /* 왕실의 나이트.swift */,
 				B5689CC129528286006D20F5 /* 게임 개발.swift */,
+				B5689CC329529779006D20F5 /* 럭키 스트레이트.swift */,
+				B5689CC529529A32006D20F5 /* main.swift */,
 			);
 			name = "구현";
 			path = "구현";
@@ -410,6 +419,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5689CC629529A32006D20F5 /* main.swift in Sources */,
+				B5689CC429529779006D20F5 /* 럭키 스트레이트.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
