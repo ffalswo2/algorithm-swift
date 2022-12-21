@@ -101,10 +101,14 @@
 		B5A9BCA028A8445800EBC76E /* 문자열 다루기 기본.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 다루기 기본.swift"; sourceTree = "<group>"; };
 		B5A9BCA228A8454500EBC76E /* 서울에서 김서방 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "서울에서 김서방 찾기.swift"; sourceTree = "<group>"; };
 		B5A9BCA428A8474100EBC76E /* 소수 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "소수 찾기.swift"; sourceTree = "<group>"; };
+		B5DCF45828F2B10D00F56BBE /* 경로의개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "경로의개수.swift"; sourceTree = "<group>"; };
+		B5DCF45A28F2B43D00F56BBE /* 동명이인.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "동명이인.swift"; sourceTree = "<group>"; };
+		B5DCF45C28F2B71D00F56BBE /* 최장 맨해튼 거리.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "최장 맨해튼 거리.swift"; sourceTree = "<group>"; };
+		B5DCF45E28F2BC8600F56BBE /* 구름소수찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "구름소수찾기.swift"; sourceTree = "<group>"; };
 		B5E112922825718D0048D2D0 /* 1789_수들의 합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1789_수들의 합.swift"; sourceTree = "<group>"; };
 		B5E112942825789D0048D2D0 /* 1543_문서 검색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1543_문서 검색.swift"; sourceTree = "<group>"; };
 		B5E1129828258EE30048D2D0 /* 11047_동전0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11047_동전0.swift"; sourceTree = "<group>"; };
-		B5F1BBA628E2A6A500DB915D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B5F1BBA628E2A6A500DB915D /* 조이스틱.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "조이스틱.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 		B51FDFDA28214EC000ED0429 /* algo */ = {
 			isa = PBXGroup;
 			children = (
+				B5DCF45728F2B10300F56BBE /* goorm */,
 				B595FFE628D0DA0B00F6B2E4 /* 자료구조 */,
 				B595FFE328D0D85200F6B2E4 /* BOJ */,
 				B52CAF32289D03D600CA5602 /* 프로그래머스 */,
@@ -312,9 +317,20 @@
 				B595FF7828C855D600F6B2E4 /* 큰수만들기.swift */,
 				B595FFC828CB619100F6B2E4 /* 정수 삼각형-py.swift */,
 				B54234D028D988BC00993313 /* 게임맵최단거리-py.swift */,
-				B5F1BBA628E2A6A500DB915D /* main.swift */,
+				B5F1BBA628E2A6A500DB915D /* 조이스틱.swift */,
 			);
 			path = Level2;
+			sourceTree = "<group>";
+		};
+		B5DCF45728F2B10300F56BBE /* goorm */ = {
+			isa = PBXGroup;
+			children = (
+				B5DCF45828F2B10D00F56BBE /* 경로의개수.swift */,
+				B5DCF45A28F2B43D00F56BBE /* 동명이인.swift */,
+				B5DCF45C28F2B71D00F56BBE /* 최장 맨해튼 거리.swift */,
+				B5DCF45E28F2BC8600F56BBE /* 구름소수찾기.swift */,
+			);
+			path = goorm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,11 +361,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					B51FDFD728214EC000ED0429 = {
 						CreatedOnToolsVersion = 13.3.1;
-						LastSwiftMigration = 1340;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -376,7 +392,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F1BBA728E2A6A500DB915D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +431,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -476,6 +492,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -502,6 +519,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = AXN37CP9B9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -522,6 +540,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = AXN37CP9B9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
