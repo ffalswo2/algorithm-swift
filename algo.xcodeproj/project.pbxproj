@@ -49,6 +49,8 @@
 		B53F54AD296438F8002F7624 /* 치킨배달.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "치킨배달.swift"; sourceTree = "<group>"; };
 		B53F54AF29644DA1002F7624 /* 조합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "조합.swift"; sourceTree = "<group>"; };
 		B53F54B22964641D002F7624 /* 음료수얼려먹기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "음료수얼려먹기.swift"; sourceTree = "<group>"; };
+		B53F54B5296C2E27002F7624 /* 순열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "순열.swift"; sourceTree = "<group>"; };
+		B53F54B7296FFA2D002F7624 /* 외벽점검.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "외벽점검.swift"; sourceTree = "<group>"; };
 		B54234D028D988BC00993313 /* 게임맵최단거리-py.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "게임맵최단거리-py.swift"; sourceTree = "<group>"; };
 		B5465AF928B3B16600DFF564 /* 소수찾기.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = "소수찾기.swift"; sourceTree = "<group>"; tabWidth = 2; };
 		B5465B6B28B7A60400DFF564 /* JadenCase 문자열 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JadenCase 문자열 만들기.swift"; sourceTree = "<group>"; };
@@ -296,6 +298,8 @@
 		B5689CBC295278EB006D20F5 /* 이코테 */ = {
 			isa = PBXGroup;
 			children = (
+				B53F54AF29644DA1002F7624 /* 조합.swift */,
+				B53F54B5296C2E27002F7624 /* 순열.swift */,
 				B53F54B4296C2DF4002F7624 /* BFS_DFS */,
 				B5689CBD2952791D006D20F5 /* 구현 */,
 			);
@@ -316,7 +320,7 @@
 				B53F54A929599756002F7624 /* 기둥과보.swift */,
 				B53F54AB295DDBA3002F7624 /* 기둥과보-test.swift */,
 				B53F54AD296438F8002F7624 /* 치킨배달.swift */,
-				B53F54AF29644DA1002F7624 /* 조합.swift */,
+				B53F54B7296FFA2D002F7624 /* 외벽점검.swift */,
 			);
 			name = "구현";
 			path = "구현";
