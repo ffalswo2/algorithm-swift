@@ -1,5 +1,5 @@
 //
-//  Heap.swift
+//  카드 정렬하기.swift
 //  Minjae
 //
 //  Created by 김민재 on 2023/02/03.
@@ -113,3 +113,26 @@ struct Heap<T> {
         siftDown(elementAtIndex: childIndex)
     }
 }
+
+
+let N = Int(readLine()!)! // N개의 카드 묶음
+var nums: [Int] = [] // 카드 수 배열
+for _ in 0..<N {
+    nums.append(Int(readLine()!)!)
+}
+
+// 아이디어는 가장 작은 묶음 2개를 꺼내서 합치고 다시 넣기
+var heap = Heap(elements: nums, priorityFunction: <) // 최소힙 만들기
+
+var answer = 0 // 비교 횟수(정답값)을 담을 변수.
+while heap.count > 1 { // heap에 요소가 1개 이상일 때만
+    guard let tmp1 = heap.dequeue() else { break } // 가장 작은 묶음 2개 빼기
+    guard let tmp2 = heap.dequeue() else { break }
+    
+    let shuffle = tmp1 + tmp2 // 비교 횟수는 가장 작은 묶음의 합
+    answer += shuffle // 비교횟수에 더하기
+    heap.enqueue(shuffle) // 합쳐진 묶음 넣기
+}
+// heap에 넣고 꺼내는 것만으로 정렬이 된다.
+print(answer)
+
