@@ -20,6 +20,10 @@
 
 /* Begin PBXFileReference section */
 		B51FDFD828214EC000ED0429 /* algo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algo; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56759752A78D4990004E5DD /* stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = stack.swift; path = "algo/자료구조/stack.swift"; sourceTree = SOURCE_ROOT; };
+		B56759772A7955CF0004E5DD /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LinkedList.swift; path = "algo/자료구조/LinkedList.swift"; sourceTree = SOURCE_ROOT; };
+		B56759792A7ABB0D0004E5DD /* stack-linkedlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "stack-linkedlist.swift"; path = "algo/자료구조/stack-linkedlist.swift"; sourceTree = SOURCE_ROOT; };
+		B58B967E2A2FC3EB00E1B75D /* 아기상어(-ing).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "아기상어(-ing).swift"; path = "algo/DFS_BFS/아기상어(-ing).swift"; sourceTree = SOURCE_ROOT; };
 		B598BDF029D5C7AC00FDEF04 /* 부품찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "부품찾기.swift"; sourceTree = "<group>"; };
 		B598BDF129D5C7AC00FDEF04 /* 정렬된 배열에서 특정 수의 개수 구하기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "정렬된 배열에서 특정 수의 개수 구하기.swift"; sourceTree = "<group>"; };
 		B598BDF229D5C7AC00FDEF04 /* 고정점 찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "고정점 찾기.swift"; sourceTree = "<group>"; };
@@ -245,6 +249,9 @@
 				B598BDF729D5C7AC00FDEF04 /* BST.swift */,
 				B598BDF829D5C7AC00FDEF04 /* Queue.swift */,
 				B598BDF929D5C7AC00FDEF04 /* Heap.swift */,
+				B56759752A78D4990004E5DD /* stack.swift */,
+				B56759772A7955CF0004E5DD /* LinkedList.swift */,
+				B56759792A7ABB0D0004E5DD /* stack-linkedlist.swift */,
 			);
 			name = "자료구조";
 			path = "../../../../문서 - minjae mac/algo-swift/algorithm-swift/algo/자료구조";
@@ -455,6 +462,7 @@
 				B598BEA129D5C7AC00FDEF04 /* 경쟁적 전염.swift */,
 				B598BEA229D5C7AC00FDEF04 /* 연산자 끼워넣기.swift */,
 				B598BEA329D5C7AC00FDEF04 /* 괄호 변환.swift */,
+				B58B967E2A2FC3EB00E1B75D /* 아기상어(-ing).swift */,
 			);
 			name = DFS_BFS;
 			path = "../../../../문서 - minjae mac/algo-swift/algorithm-swift/algo/DFS_BFS";
@@ -492,7 +500,7 @@
 				TargetAttributes = {
 					B51FDFD728214EC000ED0429 = {
 						CreatedOnToolsVersion = 13.3.1;
-						LastSwiftMigration = 1420;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
