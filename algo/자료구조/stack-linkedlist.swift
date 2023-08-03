@@ -37,6 +37,11 @@ struct Stack<T> {
         return popValue
     }
 
+    mutating func clear() {
+        count = 0
+        top = nil
+    }
+
     func peak() -> T? {
         top?.value
     }
@@ -71,3 +76,14 @@ print("count: ", s.count)
 print(s.pop()) // 20
 print(s.pop()) // nil
 print(s.pop()) // nil
+
+s.push(1)
+s.push(2)
+s.push(3)
+s.push(4)
+s.push(5)
+print(s.count)
+
+s.clear()
+print(s.count)
+print(s.peak())
