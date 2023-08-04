@@ -7,23 +7,23 @@
 
 import Foundation
 
-public struct Queue<T> {
-  fileprivate var array = [T?]()
-  fileprivate var head = 0
+struct Queue<T> {
+  var array = [T?]()
+  var head = 0
   
-  public var isEmpty: Bool {
+  var isEmpty: Bool {
     return count == 0
   }
 
-  public var count: Int {
+  var count: Int {
     return array.count - head
   }
   
-  public mutating func enqueue(_ element: T) {
+  mutating func enqueue(_ element: T) {
     array.append(element)
   }
   
-  public mutating func dequeue() -> T? {
+  mutating func dequeue() -> T? {
     guard head < array.count, let element = array[head] else { return nil }
 
     array[head] = nil
@@ -38,7 +38,7 @@ public struct Queue<T> {
     return element
   }
   
-  public var front: T? {
+  var front: T? {
     if isEmpty {
       return nil
     } else {
@@ -48,4 +48,3 @@ public struct Queue<T> {
 }
 
 // 이게 어떻게 보면 앞으로 땡기는 방식: 비효율적인 거 아님?
-
