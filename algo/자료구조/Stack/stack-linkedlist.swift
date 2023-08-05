@@ -8,17 +8,6 @@
 import Foundation
 
 
-class Node<T> { // class인 이유? next포인터를 위함.
-    var value: T
-    var next: Node?
-
-    init(value: T, next: Node? = nil) {
-        self.value = value
-        self.next = next
-    }
-}
-
-
 struct Stack<T> {
 
     var top: Node<T>?

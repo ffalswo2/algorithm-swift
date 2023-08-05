@@ -7,22 +7,7 @@
 
 import Foundation
 
-class Node<T> {
-    var value: T
-    var next: Node?
 
-    init(value: T, next: Node? = nil) {
-        self.value = value
-        self.next = next
-    }
-}
-
-extension Node: CustomStringConvertible {
-    var description: String {
-        guard let next else { return "\(value)" }
-        return "\(value) -> " + String(describing: next) + " "
-    }
-}
 
 
 /**
@@ -40,6 +25,7 @@ extension Node: CustomStringConvertible {
  */
 
 struct LinkedList<T> {
+
     var head: Node<T>?
     var tail: Node<T>?
 
@@ -133,6 +119,11 @@ struct LinkedList<T> {
 
         return node.next
     }
+
+    func iterator() -> any ListIterator {
+        return LinkedListIterator(head: head!)
+    }
+    
 }
 
 extension LinkedList: CustomStringConvertible {
@@ -141,6 +132,37 @@ extension LinkedList: CustomStringConvertible {
         return String(describing: head)
     }
 }
+
+
+struct LinkedListIterator<T>: ListIterator {
+
+    private var curr: Node<T>?
+
+    init(head: Node<T>) {
+        self.curr = head
+    }
+
+    func hasNext() -> Bool {
+        if curr?.next != nil {
+            return true
+        }
+        return false
+    }
+
+    mutating func next() -> T? {
+        curr = curr?.next
+        return curr?.value
+    }
+
+    func hasPrevious() -> Bool {
+        return true
+    }
+
+    mutating func previous() -> T? {
+        return curr?.value
+    }
+}
+
 
 var linkedList = LinkedList<Int>()
 linkedList.push(1)
@@ -176,6 +198,13 @@ print("=====REMOVE-AFTER=====")
 linkedList.remove(after: targetNode)
 print(linkedList)
 
+
+var itr = linkedList.iterator()
+print(itr.hasNext())
+print(itr.next())
+print(itr.next())
+print(itr.next())
+print(itr.hasNext())
 /*
 LinkedList<int> LL;
 LL.insert(0, 1); cout << LL << endl;
