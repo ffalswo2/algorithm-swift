@@ -38,6 +38,7 @@ class DLinkedList<T> {
 
     }
 
+    /// O(1)
     func append(_ value: T) {
         let newNode = Node(value: value, previous: tail.previous, next: tail)
         tail.previous?.next = newNode
@@ -46,6 +47,7 @@ class DLinkedList<T> {
         count += 1
     }
 
+    /// O(n): search때문에
     func insert(at pos: Int, value: T) {
         var curr = head
 
@@ -60,6 +62,7 @@ class DLinkedList<T> {
         count += 1
     }
 
+    /// O(n): search때문에
     func remove(at pos: Int) -> T? {
         var curr = head
         for _ in 0..<pos {

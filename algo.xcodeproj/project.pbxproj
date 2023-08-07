@@ -33,6 +33,7 @@
 		B56759A12A7D16F20004E5DD /* ListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListProtocol.swift; path = "algo/자료구조/List/ListProtocol.swift"; sourceTree = SOURCE_ROOT; };
 		B56759A42A7E3A160004E5DD /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Node.swift; path = "algo/자료구조/List/Node.swift"; sourceTree = SOURCE_ROOT; };
 		B56759A62A7E3A440004E5DD /* DLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DLinkedList.swift; path = "algo/자료구조/List/DLinkedList.swift"; sourceTree = SOURCE_ROOT; };
+		B56759A82A7E4BBD0004E5DD /* CircularLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircularLinkedList.swift; path = "algo/자료구조/List/CircularLinkedList.swift"; sourceTree = SOURCE_ROOT; };
 		B58B967E2A2FC3EB00E1B75D /* 아기상어(-ing).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "아기상어(-ing).swift"; path = "algo/DFS_BFS/아기상어(-ing).swift"; sourceTree = SOURCE_ROOT; };
 		B598BDF029D5C7AC00FDEF04 /* 부품찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "부품찾기.swift"; sourceTree = "<group>"; };
 		B598BDF129D5C7AC00FDEF04 /* 정렬된 배열에서 특정 수의 개수 구하기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "정렬된 배열에서 특정 수의 개수 구하기.swift"; sourceTree = "<group>"; };
@@ -78,7 +79,7 @@
 		B598BE2429D5C7AC00FDEF04 /* 1931_회의실배정.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "1931_회의실배정.swift"; path = "/Users/minjae/Documents/문서 - minjae mac/algo-swift/algorithm-swift/algo/1931_회의실배정.swift"; sourceTree = "<absolute>"; };
 		B598BE2629D5C7AC00FDEF04 /* 보물.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "보물.swift"; path = "/Users/minjae/Documents/문서 - minjae mac/algo-swift/algorithm-swift/algo/보물.swift"; sourceTree = "<absolute>"; };
 		B598BE2729D5C7AC00FDEF04 /* 1789_수들의 합.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "1789_수들의 합.swift"; path = "/Users/minjae/Documents/문서 - minjae mac/algo-swift/algorithm-swift/algo/1789_수들의 합.swift"; sourceTree = "<absolute>"; };
-		B598BE2929D5C7AC00FDEF04 /* Queue2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Queue2.swift; path = "/Users/minjae/Documents/문서 - minjae mac/algo-swift/algorithm-swift/algo/자료구조/Queue2.swift"; sourceTree = "<absolute>"; };
+		B598BE2929D5C7AC00FDEF04 /* Queue-TwoArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Queue-TwoArray.swift"; path = "/Users/minjae/Documents/문서 - minjae mac/algo-swift/algorithm-swift/algo/자료구조/Queue-TwoArray.swift"; sourceTree = "<absolute>"; };
 		B598BE3E29D5C7AC00FDEF04 /* 디스크컨트롤러.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "디스크컨트롤러.swift"; sourceTree = "<group>"; };
 		B598BE4029D5C7AC00FDEF04 /* JadenCase 문자열 만들기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JadenCase 문자열 만들기.swift"; sourceTree = "<group>"; };
 		B598BE4129D5C7AC00FDEF04 /* 조이스틱.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "조이스틱.swift"; sourceTree = "<group>"; };
@@ -242,7 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				B598BDF929D5C7AC00FDEF04 /* Heap(PriorityQueue).swift */,
-				B598BE2929D5C7AC00FDEF04 /* Queue2.swift */,
+				B598BE2929D5C7AC00FDEF04 /* Queue-TwoArray.swift */,
 				B598BDF829D5C7AC00FDEF04 /* Queue.swift */,
 				B56759972A7CD2BC0004E5DD /* Queue-Array.swift */,
 				B56759992A7CE7A20004E5DD /* Queue-LinkedList.swift */,
@@ -274,6 +275,7 @@
 				B56759A12A7D16F20004E5DD /* ListProtocol.swift */,
 				B56759A42A7E3A160004E5DD /* Node.swift */,
 				B56759A62A7E3A440004E5DD /* DLinkedList.swift */,
+				B56759A82A7E4BBD0004E5DD /* CircularLinkedList.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";

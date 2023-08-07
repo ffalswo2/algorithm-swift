@@ -22,7 +22,7 @@ struct Queue<T> {
   mutating func enqueue(_ element: T) {
     array.append(element)
   }
-  
+
   mutating func dequeue() -> T? {
     guard head < array.count, let element = array[head] else { return nil }
 
