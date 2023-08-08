@@ -35,6 +35,7 @@
 		B56759A82A7E4BBD0004E5DD /* CircularLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircularLinkedList.swift; path = "algo/자료구조/List/CircularLinkedList.swift"; sourceTree = SOURCE_ROOT; };
 		B56759AA2A8147740004E5DD /* 1021_회전하는큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "1021_회전하는큐.swift"; path = "algo/자료구조/List/1021_회전하는큐.swift"; sourceTree = SOURCE_ROOT; };
 		B56759AC2A8286580004E5DD /* 10845_큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "10845_큐.swift"; path = "algo/자료구조/Queue/10845_큐.swift"; sourceTree = SOURCE_ROOT; };
+		B56759AE2A8298B30004E5DD /* 10828_스택.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "10828_스택.swift"; path = "algo/자료구조/Stack/10828_스택.swift"; sourceTree = SOURCE_ROOT; };
 		B58B967E2A2FC3EB00E1B75D /* 아기상어(-ing).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "아기상어(-ing).swift"; path = "algo/DFS_BFS/아기상어(-ing).swift"; sourceTree = SOURCE_ROOT; };
 		B598BDF029D5C7AC00FDEF04 /* 부품찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "부품찾기.swift"; sourceTree = "<group>"; };
 		B598BDF129D5C7AC00FDEF04 /* 정렬된 배열에서 특정 수의 개수 구하기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "정렬된 배열에서 특정 수의 개수 구하기.swift"; sourceTree = "<group>"; };
@@ -266,6 +267,7 @@
 			children = (
 				B56759792A7ABB0D0004E5DD /* stack-linkedlist.swift */,
 				B56759752A78D4990004E5DD /* stack.swift */,
+				B56759AE2A8298B30004E5DD /* 10828_스택.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
