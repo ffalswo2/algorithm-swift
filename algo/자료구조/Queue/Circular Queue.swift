@@ -22,7 +22,7 @@ struct Queue<T> {
     mutating func enqueue(_ item: T) {
         rear += 1
         if rear == size {
-            rear %= size
+            rear %= size // 0
         }
         items[rear] = item
 

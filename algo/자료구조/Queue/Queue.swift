@@ -10,7 +10,7 @@ import Foundation
 struct Queue<T> {
   var array = [T?]()
   var head = 0
-  
+
   var isEmpty: Bool {
     return count == 0
   }

@@ -23,6 +23,7 @@ class CircularLinkedList {
     var head = Node(value: nil)
     var last = Node(value: nil)
 
+    /// 1.
     func removeFirst() -> Int? {
         let target = head.next?.value
 
@@ -123,8 +124,8 @@ for i in 1...N {
 
 var count = 0
 for i in targets {
-    let moveLeftDist = list.moveLeftDistance(i)
-    let moveRightDist = list.moveRightDistance(i)
+    let moveLeftDist = list.moveLeftDistance(i) // O(n)
+    let moveRightDist = list.moveRightDistance(i) // O(n)
     if moveLeftDist > moveRightDist {
         for _ in 0..<moveRightDist {
             list.moveRight()
@@ -152,3 +153,4 @@ print(count)
  양방향으로 했던 이유는 좌, 우 움직이면서 가까운 방향으로 움직여야했기 때문에 이동이 좀 더 수월한 양방향 연결리스트로 구현하기로 함.
 
  */
+// 12ms

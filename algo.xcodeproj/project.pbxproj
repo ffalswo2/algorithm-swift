@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B56759A22A7D16F20004E5DD /* ListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56759A12A7D16F20004E5DD /* ListProtocol.swift */; };
+		B56759D12A8622190004E5DD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56759D02A8622190004E5DD /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +28,7 @@
 		B56759752A78D4990004E5DD /* stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = stack.swift; path = "algo/자료구조/Stack/stack.swift"; sourceTree = SOURCE_ROOT; };
 		B56759772A7955CF0004E5DD /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LinkedList.swift; path = "algo/자료구조/List/LinkedList.swift"; sourceTree = SOURCE_ROOT; };
 		B56759792A7ABB0D0004E5DD /* stack-linkedlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "stack-linkedlist.swift"; path = "algo/자료구조/Stack/stack-linkedlist.swift"; sourceTree = SOURCE_ROOT; };
-		B56759972A7CD2BC0004E5DD /* Queue-Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Queue-Array.swift"; path = "algo/자료구조/Queue/Queue-Array.swift"; sourceTree = SOURCE_ROOT; };
+		B56759972A7CD2BC0004E5DD /* Circular Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Circular Queue.swift"; path = "algo/자료구조/Queue/Circular Queue.swift"; sourceTree = SOURCE_ROOT; };
 		B56759992A7CE7A20004E5DD /* Queue-LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Queue-LinkedList.swift"; path = "algo/자료구조/Queue/Queue-LinkedList.swift"; sourceTree = SOURCE_ROOT; };
 		B56759A12A7D16F20004E5DD /* ListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListProtocol.swift; path = "algo/자료구조/List/ListProtocol.swift"; sourceTree = SOURCE_ROOT; };
 		B56759A42A7E3A160004E5DD /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Node.swift; path = "algo/자료구조/List/Node.swift"; sourceTree = SOURCE_ROOT; };
@@ -36,6 +37,7 @@
 		B56759AA2A8147740004E5DD /* 1021_회전하는큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "1021_회전하는큐.swift"; path = "algo/자료구조/List/1021_회전하는큐.swift"; sourceTree = SOURCE_ROOT; };
 		B56759AC2A8286580004E5DD /* 10845_큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "10845_큐.swift"; path = "algo/자료구조/Queue/10845_큐.swift"; sourceTree = SOURCE_ROOT; };
 		B56759AE2A8298B30004E5DD /* 10828_스택.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "10828_스택.swift"; path = "algo/자료구조/Stack/10828_스택.swift"; sourceTree = SOURCE_ROOT; };
+		B56759D02A8622190004E5DD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "algo/자료구조/BST/main.swift"; sourceTree = SOURCE_ROOT; };
 		B58B967E2A2FC3EB00E1B75D /* 아기상어(-ing).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "아기상어(-ing).swift"; path = "algo/DFS_BFS/아기상어(-ing).swift"; sourceTree = SOURCE_ROOT; };
 		B598BDF029D5C7AC00FDEF04 /* 부품찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "부품찾기.swift"; sourceTree = "<group>"; };
 		B598BDF129D5C7AC00FDEF04 /* 정렬된 배열에서 특정 수의 개수 구하기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "정렬된 배열에서 특정 수의 개수 구하기.swift"; sourceTree = "<group>"; };
@@ -247,7 +249,7 @@
 				B598BDF929D5C7AC00FDEF04 /* Heap(PriorityQueue).swift */,
 				B598BE2929D5C7AC00FDEF04 /* Queue-TwoArray.swift */,
 				B598BDF829D5C7AC00FDEF04 /* Queue.swift */,
-				B56759972A7CD2BC0004E5DD /* Queue-Array.swift */,
+				B56759972A7CD2BC0004E5DD /* Circular Queue.swift */,
 				B56759992A7CE7A20004E5DD /* Queue-LinkedList.swift */,
 				B56759AC2A8286580004E5DD /* 10845_큐.swift */,
 			);
@@ -257,6 +259,7 @@
 		B567599E2A7D11450004E5DD /* BST */ = {
 			isa = PBXGroup;
 			children = (
+				B56759D02A8622190004E5DD /* main.swift */,
 				B598BDF729D5C7AC00FDEF04 /* BST.swift */,
 			);
 			path = BST;
@@ -581,6 +584,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56759D12A8622190004E5DD /* main.swift in Sources */,
 				B56759A22A7D16F20004E5DD /* ListProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
