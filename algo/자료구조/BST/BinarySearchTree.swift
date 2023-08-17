@@ -80,12 +80,6 @@ final class Bst {
         }
     }
 
-    private func findMinimumNode(from node: Node) -> Node {
-        guard let leftNode = node.left else { return node }
-
-        return findMinimumNode(from: leftNode)
-    }
-
     @discardableResult
     func remove(target: Int, root: Node?) -> Node? {
         guard let root else { return nil }
@@ -138,44 +132,62 @@ final class Bst {
 }
 
 var bst = Bst()
-bst.insert(key: 10)
-bst.insert(key: 13)
-bst.insert(key: 20)
-bst.insert(key: 40)
+//bst.insert(key: 10)
+//bst.insert(key: 13)
+//bst.insert(key: 20)
+//bst.insert(key: 40)
+//bst.insert(key: 35)
+//bst.insert(key: 1)
+//bst.insert(key: 4)
+//bst.insert(key: 2)
+//bst.insert(key: 3)
+//bst.insert(key: 7)
+//
+//print(bst.search(target: 13, root: bst.root)?.key) // 13
+//print(bst.search(target: 23, root: bst.root)?.key)
+//
+//bst.inorderPrint(root: bst.root)
+//print("")
+//
+//bst.remove(target: 10, root: bst.root)
+//bst.inorderPrint(root: bst.root)
+//
+//bst.remove(target: 4, root: bst.root)
+//print("")
+//
+//bst.inorderPrint(root: bst.root)
+//
+//bst.remove(target: 13, root: bst.root)
+//print("")
+//
+//bst.inorderPrint(root: bst.root)
+//
+//bst.insert(key: 50)
+//bst.insert(key: 45)
+//bst.insert(key: 60)
+//print("")
+//bst.inorderPrint(root: bst.root)
+//
+//
+//bst.remove(target: 40, root: bst.root)
+//print("")
+//bst.inorderPrint(root: bst.root)
+
 bst.insert(key: 35)
-bst.insert(key: 1)
-bst.insert(key: 4)
-bst.insert(key: 2)
-bst.insert(key: 3)
+bst.insert(key: 10)
+bst.insert(key: 40)
 bst.insert(key: 7)
-
-print(bst.search(target: 13, root: bst.root)?.key) // 13
-print(bst.search(target: 23, root: bst.root)?.key)
-
-bst.inorderPrint(root: bst.root)
-print("")
-
-bst.remove(target: 10, root: bst.root)
-bst.inorderPrint(root: bst.root)
-
-bst.remove(target: 4, root: bst.root)
-print("")
+bst.insert(key: 30)
+bst.insert(key: 25)
+bst.insert(key: 33)
+bst.insert(key: 16)
+bst.insert(key: 28)
+bst.insert(key: 34)
+bst.insert(key: 18)
 
 bst.inorderPrint(root: bst.root)
 
-bst.remove(target: 13, root: bst.root)
-print("")
-
-bst.inorderPrint(root: bst.root)
-
-bst.insert(key: 50)
-bst.insert(key: 45)
-bst.insert(key: 60)
-print("")
-bst.inorderPrint(root: bst.root)
-
-
-bst.remove(target: 40, root: bst.root)
+bst.remove(target: 30, root: bst.root)
 print("")
 bst.inorderPrint(root: bst.root)
 

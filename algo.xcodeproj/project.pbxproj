@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B56759A22A7D16F20004E5DD /* ListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56759A12A7D16F20004E5DD /* ListProtocol.swift */; };
-		B56759D12A8622190004E5DD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56759D02A8622190004E5DD /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,7 +36,9 @@
 		B56759AA2A8147740004E5DD /* 1021_회전하는큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "1021_회전하는큐.swift"; path = "algo/자료구조/List/1021_회전하는큐.swift"; sourceTree = SOURCE_ROOT; };
 		B56759AC2A8286580004E5DD /* 10845_큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "10845_큐.swift"; path = "algo/자료구조/Queue/10845_큐.swift"; sourceTree = SOURCE_ROOT; };
 		B56759AE2A8298B30004E5DD /* 10828_스택.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "10828_스택.swift"; path = "algo/자료구조/Stack/10828_스택.swift"; sourceTree = SOURCE_ROOT; };
-		B56759D02A8622190004E5DD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "algo/자료구조/BST/main.swift"; sourceTree = SOURCE_ROOT; };
+		B56759D02A8622190004E5DD /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BinarySearchTree.swift; path = "algo/자료구조/BST/BinarySearchTree.swift"; sourceTree = SOURCE_ROOT; };
+		B56759D22A8DFDE50004E5DD /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Heap.swift; path = "algo/자료구조/Queue/Heap.swift"; sourceTree = SOURCE_ROOT; };
+		B56759D52A8E5CAC0004E5DD /* BST-Recur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BST-Recur.swift"; path = "algo/자료구조/BST/BST-Recur.swift"; sourceTree = SOURCE_ROOT; };
 		B58B967E2A2FC3EB00E1B75D /* 아기상어(-ing).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "아기상어(-ing).swift"; path = "algo/DFS_BFS/아기상어(-ing).swift"; sourceTree = SOURCE_ROOT; };
 		B598BDF029D5C7AC00FDEF04 /* 부품찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "부품찾기.swift"; sourceTree = "<group>"; };
 		B598BDF129D5C7AC00FDEF04 /* 정렬된 배열에서 특정 수의 개수 구하기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "정렬된 배열에서 특정 수의 개수 구하기.swift"; sourceTree = "<group>"; };
@@ -252,6 +253,7 @@
 				B56759972A7CD2BC0004E5DD /* Circular Queue.swift */,
 				B56759992A7CE7A20004E5DD /* Queue-LinkedList.swift */,
 				B56759AC2A8286580004E5DD /* 10845_큐.swift */,
+				B56759D22A8DFDE50004E5DD /* Heap.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -259,8 +261,9 @@
 		B567599E2A7D11450004E5DD /* BST */ = {
 			isa = PBXGroup;
 			children = (
-				B56759D02A8622190004E5DD /* main.swift */,
+				B56759D02A8622190004E5DD /* BinarySearchTree.swift */,
 				B598BDF729D5C7AC00FDEF04 /* BST.swift */,
+				B56759D52A8E5CAC0004E5DD /* BST-Recur.swift */,
 			);
 			path = BST;
 			sourceTree = "<group>";
@@ -584,7 +587,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B56759D12A8622190004E5DD /* main.swift in Sources */,
 				B56759A22A7D16F20004E5DD /* ListProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
