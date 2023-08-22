@@ -23,6 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B50DD0212A94EE240054B357 /* 14888_연산자 끼워넣기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "14888_연산자 끼워넣기.swift"; path = "algo/자료구조/Graph/14888_연산자 끼워넣기.swift"; sourceTree = SOURCE_ROOT; };
+		B50DD0232A950A080054B357 /* 2644_촌수계산.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "2644_촌수계산.swift"; path = "algo/자료구조/Graph/2644_촌수계산.swift"; sourceTree = SOURCE_ROOT; };
+		B50DD0252A951E090054B357 /* 1012_유기농배추.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "1012_유기농배추.swift"; path = "algo/자료구조/Graph/1012_유기농배추.swift"; sourceTree = SOURCE_ROOT; };
 		B51FDFD828214EC000ED0429 /* algo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algo; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56759752A78D4990004E5DD /* stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = stack.swift; path = "algo/자료구조/Stack/stack.swift"; sourceTree = SOURCE_ROOT; };
 		B56759772A7955CF0004E5DD /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LinkedList.swift; path = "algo/자료구조/List/LinkedList.swift"; sourceTree = SOURCE_ROOT; };
@@ -39,6 +42,8 @@
 		B56759D02A8622190004E5DD /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BinarySearchTree.swift; path = "algo/자료구조/BST/BinarySearchTree.swift"; sourceTree = SOURCE_ROOT; };
 		B56759D22A8DFDE50004E5DD /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Heap.swift; path = "algo/자료구조/Queue/Heap.swift"; sourceTree = SOURCE_ROOT; };
 		B56759D52A8E5CAC0004E5DD /* BST-Recur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BST-Recur.swift"; path = "algo/자료구조/BST/BST-Recur.swift"; sourceTree = SOURCE_ROOT; };
+		B56759D72A8E7F960004E5DD /* 1991_트리 순회.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "1991_트리 순회.swift"; path = "algo/자료구조/BST/1991_트리 순회.swift"; sourceTree = SOURCE_ROOT; };
+		B56759D92A8E883E0004E5DD /* 1927_최소힙.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "1927_최소힙.swift"; path = "algo/자료구조/Queue/1927_최소힙.swift"; sourceTree = SOURCE_ROOT; };
 		B58B967E2A2FC3EB00E1B75D /* 아기상어(-ing).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "아기상어(-ing).swift"; path = "algo/DFS_BFS/아기상어(-ing).swift"; sourceTree = SOURCE_ROOT; };
 		B598BDF029D5C7AC00FDEF04 /* 부품찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "부품찾기.swift"; sourceTree = "<group>"; };
 		B598BDF129D5C7AC00FDEF04 /* 정렬된 배열에서 특정 수의 개수 구하기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "정렬된 배열에서 특정 수의 개수 구하기.swift"; sourceTree = "<group>"; };
@@ -198,6 +203,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B50DD0202A94EE1F0054B357 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				B50DD0212A94EE240054B357 /* 14888_연산자 끼워넣기.swift */,
+				B50DD0232A950A080054B357 /* 2644_촌수계산.swift */,
+				B50DD0252A951E090054B357 /* 1012_유기농배추.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
 		B51FDFCF28214EC000ED0429 = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +269,7 @@
 				B56759992A7CE7A20004E5DD /* Queue-LinkedList.swift */,
 				B56759AC2A8286580004E5DD /* 10845_큐.swift */,
 				B56759D22A8DFDE50004E5DD /* Heap.swift */,
+				B56759D92A8E883E0004E5DD /* 1927_최소힙.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -264,6 +280,7 @@
 				B56759D02A8622190004E5DD /* BinarySearchTree.swift */,
 				B598BDF729D5C7AC00FDEF04 /* BST.swift */,
 				B56759D52A8E5CAC0004E5DD /* BST-Recur.swift */,
+				B56759D72A8E7F960004E5DD /* 1991_트리 순회.swift */,
 			);
 			path = BST;
 			sourceTree = "<group>";
@@ -308,6 +325,7 @@
 		B598BDF629D5C7AC00FDEF04 /* 자료구조 */ = {
 			isa = PBXGroup;
 			children = (
+				B50DD0202A94EE1F0054B357 /* Graph */,
 				B56759A02A7D11590004E5DD /* List */,
 				B567599F2A7D11520004E5DD /* Stack */,
 				B567599E2A7D11450004E5DD /* BST */,

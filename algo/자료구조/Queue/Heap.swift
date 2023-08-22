@@ -22,7 +22,7 @@ final class Heap {
     }
 
     func parent(of r: Int) -> Int {
-        return Int(floor(Double((r-1) / 2)))
+        return (r-1) / 2
     }
 
     func leftChild(of r: Int) -> Int {
@@ -61,8 +61,6 @@ final class Heap {
         var prior = getPriortier(left: leftChildIndex, right: rightChildIndex)
 
         while prior < elements.count {
-            print("compare : ", elements[index])
-            print("prior : ", elements[prior])
             if elements[index] > elements[prior] {
                 return
             }
