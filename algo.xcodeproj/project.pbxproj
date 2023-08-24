@@ -46,6 +46,7 @@
 		B56759D72A8E7F960004E5DD /* 1991_트리 순회.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "1991_트리 순회.swift"; path = "algo/자료구조/BST/1991_트리 순회.swift"; sourceTree = SOURCE_ROOT; };
 		B56759D92A8E883E0004E5DD /* 1927_최소힙.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "1927_최소힙.swift"; path = "algo/자료구조/Queue/1927_최소힙.swift"; sourceTree = SOURCE_ROOT; };
 		B58B967E2A2FC3EB00E1B75D /* 아기상어(-ing).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "아기상어(-ing).swift"; path = "algo/DFS_BFS/아기상어(-ing).swift"; sourceTree = SOURCE_ROOT; };
+		B59480EC2A9793CE007971A8 /* 4673_셀프넘버.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "4673_셀프넘버.swift"; path = "algo/자료구조/Graph/4673_셀프넘버.swift"; sourceTree = SOURCE_ROOT; };
 		B598BDF029D5C7AC00FDEF04 /* 부품찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "부품찾기.swift"; sourceTree = "<group>"; };
 		B598BDF129D5C7AC00FDEF04 /* 정렬된 배열에서 특정 수의 개수 구하기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "정렬된 배열에서 특정 수의 개수 구하기.swift"; sourceTree = "<group>"; };
 		B598BDF229D5C7AC00FDEF04 /* 고정점 찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "고정점 찾기.swift"; sourceTree = "<group>"; };
@@ -213,6 +214,7 @@
 				B50DD0252A951E090054B357 /* 1012_유기농배추.swift */,
 				B50DD0292A952F6A0054B357 /* 1182_부분수열의합.swift */,
 				B5C8B4282A977F8E00FBC1F8 /* 1753_최단경로(다익).swift */,
+				B59480EC2A9793CE007971A8 /* 4673_셀프넘버.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -566,6 +568,8 @@
 			dependencies = (
 			);
 			name = algo;
+			packageProductDependencies = (
+			);
 			productName = algo;
 			productReference = B51FDFD828214EC000ED0429 /* algo */;
 			productType = "com.apple.product-type.tool";
@@ -595,6 +599,8 @@
 				Base,
 			);
 			mainGroup = B51FDFCF28214EC000ED0429;
+			packageReferences = (
+			);
 			productRefGroup = B51FDFD928214EC000ED0429 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
