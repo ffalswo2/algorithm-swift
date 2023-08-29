@@ -51,6 +51,7 @@
 		B59480F02A97C069007971A8 /* 2606_바이러스.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "2606_바이러스.swift"; path = "algo/자료구조/Graph/2606_바이러스.swift"; sourceTree = SOURCE_ROOT; };
 		B59480F22A97C59D007971A8 /* 15649_N과M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "15649_N과M.swift"; path = "algo/자료구조/Graph/15649_N과M.swift"; sourceTree = SOURCE_ROOT; };
 		B59480FB2A9E5DA9007971A8 /* 2178_미로탐색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "2178_미로탐색.swift"; path = "algo/자료구조/Graph/2178_미로탐색.swift"; sourceTree = SOURCE_ROOT; };
+		B59480FD2A9E6501007971A8 /* 14940_쉬운 최단거리.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "14940_쉬운 최단거리.swift"; path = "algo/자료구조/Graph/14940_쉬운 최단거리.swift"; sourceTree = SOURCE_ROOT; };
 		B598BDF029D5C7AC00FDEF04 /* 부품찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "부품찾기.swift"; sourceTree = "<group>"; };
 		B598BDF129D5C7AC00FDEF04 /* 정렬된 배열에서 특정 수의 개수 구하기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "정렬된 배열에서 특정 수의 개수 구하기.swift"; sourceTree = "<group>"; };
 		B598BDF229D5C7AC00FDEF04 /* 고정점 찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "고정점 찾기.swift"; sourceTree = "<group>"; };
@@ -223,6 +224,7 @@
 				B59480F02A97C069007971A8 /* 2606_바이러스.swift */,
 				B59480F22A97C59D007971A8 /* 15649_N과M.swift */,
 				B59480FB2A9E5DA9007971A8 /* 2178_미로탐색.swift */,
+				B59480FD2A9E6501007971A8 /* 14940_쉬운 최단거리.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
