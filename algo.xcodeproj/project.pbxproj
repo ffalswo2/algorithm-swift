@@ -45,6 +45,7 @@
 		B56759D52A8E5CAC0004E5DD /* BST-Recur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BST-Recur.swift"; path = "algo/자료구조/BST/BST-Recur.swift"; sourceTree = SOURCE_ROOT; };
 		B56759D72A8E7F960004E5DD /* 1991_트리 순회.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "1991_트리 순회.swift"; path = "algo/자료구조/BST/1991_트리 순회.swift"; sourceTree = SOURCE_ROOT; };
 		B56759D92A8E883E0004E5DD /* 1927_최소힙.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "1927_최소힙.swift"; path = "algo/자료구조/Queue/1927_최소힙.swift"; sourceTree = SOURCE_ROOT; };
+		B57FEE272AA64D6B00ED6299 /* 86971_전력망둘로나누기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "86971_전력망둘로나누기.swift"; path = "algo/프로그래머스/Level2/86971_전력망둘로나누기.swift"; sourceTree = SOURCE_ROOT; };
 		B58B967E2A2FC3EB00E1B75D /* 아기상어(-ing).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "아기상어(-ing).swift"; path = "algo/DFS_BFS/아기상어(-ing).swift"; sourceTree = SOURCE_ROOT; };
 		B59480EC2A9793CE007971A8 /* 4673_셀프넘버.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "4673_셀프넘버.swift"; path = "algo/자료구조/Graph/4673_셀프넘버.swift"; sourceTree = SOURCE_ROOT; };
 		B59480EE2A97BC83007971A8 /* 11724_연결요소의 개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "11724_연결요소의 개수.swift"; path = "algo/자료구조/Graph/11724_연결요소의 개수.swift"; sourceTree = SOURCE_ROOT; };
@@ -422,6 +423,7 @@
 		B598BE3F29D5C7AC00FDEF04 /* Level2 */ = {
 			isa = PBXGroup;
 			children = (
+				B57FEE272AA64D6B00ED6299 /* 86971_전력망둘로나누기.swift */,
 				B598BE4029D5C7AC00FDEF04 /* JadenCase 문자열 만들기.swift */,
 				B598BE4129D5C7AC00FDEF04 /* 조이스틱.swift */,
 				B598BE4229D5C7AC00FDEF04 /* 양궁대회.swift */,
@@ -555,8 +557,8 @@
 				B598BEA029D5C7AC00FDEF04 /* 감시 피하기.swift */,
 				B598BEA129D5C7AC00FDEF04 /* 경쟁적 전염.swift */,
 				B598BEA229D5C7AC00FDEF04 /* 연산자 끼워넣기.swift */,
-				B598BEA329D5C7AC00FDEF04 /* 괄호 변환.swift */,
 				B58B967E2A2FC3EB00E1B75D /* 아기상어(-ing).swift */,
+				B598BEA329D5C7AC00FDEF04 /* 괄호 변환.swift */,
 			);
 			name = DFS_BFS;
 			path = "../../../../문서 - minjae mac/algo-swift/algorithm-swift/algo/DFS_BFS";
