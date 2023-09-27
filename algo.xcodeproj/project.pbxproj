@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B508860C2AC412FA0094F4EC /* 감시(1).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "감시(1).swift"; path = "../../../../../../감시(1).swift"; sourceTree = "<group>"; };
+		B508860E2AC4607E0094F4EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "algo/구현/main.swift"; sourceTree = SOURCE_ROOT; };
 		B50DD0212A94EE240054B357 /* 14888_연산자 끼워넣기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "14888_연산자 끼워넣기.swift"; path = "algo/자료구조/Graph/14888_연산자 끼워넣기.swift"; sourceTree = SOURCE_ROOT; };
 		B50DD0232A950A080054B357 /* 2644_촌수계산.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "2644_촌수계산.swift"; path = "algo/자료구조/Graph/2644_촌수계산.swift"; sourceTree = SOURCE_ROOT; };
 		B50DD0252A951E090054B357 /* 1012_유기농배추.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "1012_유기농배추.swift"; path = "algo/자료구조/Graph/1012_유기농배추.swift"; sourceTree = SOURCE_ROOT; };
@@ -392,6 +394,8 @@
 				B598BE0829D5C7AC00FDEF04 /* 외벽점검.swift */,
 				B598BE0929D5C7AC00FDEF04 /* 뱀.swift */,
 				B598BE0A29D5C7AC00FDEF04 /* 치킨배달.swift */,
+				B508860C2AC412FA0094F4EC /* 감시(1).swift */,
+				B508860E2AC4607E0094F4EC /* main.swift */,
 			);
 			name = "구현";
 			path = "../../../../문서 - minjae mac/algo-swift/algorithm-swift/algo/구현";
