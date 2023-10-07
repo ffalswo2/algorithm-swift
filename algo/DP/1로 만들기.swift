@@ -50,38 +50,3 @@ else {
 //
 //
 //print(recur(n))
-
-
-
-
-//func recur(_ n: Int) -> Int {
-//    if n == 1 {
-//        return dp[n]
-//    }
-//
-//    if dp[n] != 0 {
-//        return dp[n]
-//    }
-//
-//    dp[n] = min(recur(n - 1), recur(n / 2), recur(n / 3)) + 1
-//
-//    return dp[n]
-//}
-//
-//recur(10)
-//print(dp)
-
-// recur(10)
-// recur(9)
-// recur(8)
-// recur(7)
-// recur(6)
-// recur(5)
-// recur(4)
-// recur(3)
-// recur(2)
-// recur(1) -> return 0
-
-// recur(5)
-// recur(4)
-// recur(3)
